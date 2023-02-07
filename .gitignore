@@ -1,0 +1,17 @@
+### Nuxt.js ###
+.nuxt/
+.output/
+dist/
+
+### Node.js ###
+node_modules/
+*.log
+*.log*
+
+### IntelliJ IDEA ###
+.idea/
+out/
+*.iml
+
+### VS Code ###
+.vscode/
