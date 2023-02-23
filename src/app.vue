@@ -1,3 +1,9 @@
+<script lang="ts" setup>
+import { useAppHead } from '#imports'
+
+useAppHead()
+</script>
+
 <template>
   <nuxt-layout>
     <nuxt-page />

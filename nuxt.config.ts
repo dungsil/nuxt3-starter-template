@@ -106,6 +106,9 @@ export default defineNuxtConfig({
       ['c-ui', 'light:c-gray-700 dark:c-gray-50'],
       ['c-sub-content', 'light:c-gray-600 dark:c-gray-400'],
       ['c-disabled', 'light:c-gray-500 dark:c-gray-600'],
+
+      // 유틸리티
+      ['fullscreen', 'w-full min-h-screen min-h-[-webkit-fill-available]'],
     ]
   }
 })
