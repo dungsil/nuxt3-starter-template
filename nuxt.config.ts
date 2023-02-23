@@ -19,9 +19,6 @@ export default defineNuxtConfig({
       ],
     }
   },
-  css: [
-    'assets/styles/global.css'
-  ],
   modules: [
     '@nuxtjs/i18n',
     '@nuxtjs/color-mode',
