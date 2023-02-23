@@ -1,0 +1,6 @@
+title: 샘플 앱
+description: 이 앱은 샘플입니다.
+
+error:
+  title: 페이지를 찾을 수 없습니다
+  go_home: 첫 화면으로

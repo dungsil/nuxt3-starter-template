@@ -1,0 +1,6 @@
+title: Sample app
+description: This is sample
+
+error:
+  title: Page not found
+  go_home: Home

@@ -27,13 +27,31 @@ export default defineNuxtConfig({
     'assets/styles/global.css'
   ],
   modules: [
-    '@vueuse/nuxt',
+    '@nuxtjs/i18n',
     '@nuxtjs/color-mode',
+    '@vueuse/nuxt',
     '@unocss/nuxt'
   ],
   vueuse: {},
   colorMode: {
     classSuffix: ''
+  },
+  i18n: {
+    lazy: true,
+    langDir: 'locales/',
+    strategy: 'prefix',
+    defaultLocale: 'en-US',
+    defaultDirection: 'ltr',
+    locales: [
+      { code: 'en-US', iso: 'en-US', file: 'en-US.yml', name: 'English', english: 'USA' },
+      { code: 'ko-KR', iso: 'ko-KR', file: 'ko-KR.yml', name: '한국어', english: 'Korean' }
+    ],
+    detectBrowserLanguage: {
+      useCookie: false,
+      alwaysRedirect: false,
+      redirectOn: 'root',
+      fallbackLocale: 'en-US',
+    }
   },
   unocss: {
     presets: [
